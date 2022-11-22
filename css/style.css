@@ -1,0 +1,85 @@
+/* Geral */
+body{
+    background-color: #f8f9fa;
+}
+
+.center{
+    text-align: center;
+}
+
+/* NavBar */
+.x-tudo{
+    background-color: #f8f9fa;
+    border: none;
+}
+
+.login{
+    text-decoration: none;
+    color: black;
+    transition: color, 1s;
+}
+
+.login:hover{
+    cursor: pointer;
+    color: rgb(77, 77, 77);
+    transition: color, 1s;
+}
+
+.menu{
+    text-decoration: none;
+    color: black;
+}
+
+.menu h5:hover{
+    color: black;
+}
+
+.fechar{
+    border: none;
+    background-color: #FFFFFF;
+}
+
+.navbar-toggler:active{
+    border: none;
+}
+
+/* Inicio */
+.zoom{
+    transition: trasform, 1s;
+}
+
+.zoom:hover{
+    transform: scale(1.1);
+    transition: trasform, 1s;
+}
+
+.funlog{
+    background-color: #161616;
+    color: white;
+}
+
+/* Novidades */
+.setas{
+    cursor: pointer;
+}
+
+.seta-esquerda{
+    position: absolute;
+    margin-left: -630px;
+    margin-top: 140px;
+}
+
+.seta-direita{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: -200px;
+}
+
+#slide2{
+    display: none;
+}
+
+/* Não Identificado */
+.margin{
+    margin: auto;
+}

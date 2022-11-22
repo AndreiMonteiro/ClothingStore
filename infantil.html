@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClothingStore</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand position-absolute top-50 start-50 translate-middle" href="index.html"><img src="img/logos/logo.png" alt="Logo" width="190px"></a>
+          
+          <button class="x-tudo" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class=""><img src="img/icones/cardapio.png" alt="x-tudo" width="40px"></span>
+          </button>
+
+          <a data-bs-toggle="modal" data-bs-target="#login" class="login"><img src="img/icones/login.svg" alt="login" width="35px"><b>Entre ou cadastre-se.</b></a>
+          
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <a href="index.html" class="menu">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">ClothingStore</h5>
+              </a>
+              <button type="button" class="fechar" data-bs-dismiss="offcanvas" aria-label="Close">
+                <img src="img/icones/x.png" alt="fechar" width="20px">
+              </button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="novidades.html">Novidades</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="praiano.html">Praiano</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="infantil.html">Infantil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="inverno.html">Inverno</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="social.html">Social</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="quemsomos.html">Quem Somos</a>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <br><br><hr>
+
+      <!-- Banner -->
+      <img src="img/banner/banner-inf.jpg" class="img-fluid" alt="Banner">
+      
+      <!-- Moda Pais e Filhos -->
+      <h1 class="p-5">Moda Pais e Filhos</h1>
+
+      <div class="container text-center">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+          <div class="col">
+            <a href=""><img src="img/roupas/infantil/p-f1.png" alt="Modelo1" class="zoom" width="230px"></a>
+          </div>
+          <div class="col">
+            <a href=""><img src="img/roupas/infantil/p-f2.png" alt="Modelo2" class="zoom" width="230px"></a>
+          </div>
+          <div class="col">
+            <a href=""><img src="img/roupas/infantil/p-f3.png" alt="Modelo3" class="zoom" width="230px"></a>
+          </div>
+          <div class="col">
+            <a href=""><img src="img/roupas/infantil/p-f4.png" alt="Modelo4" class="zoom" width="230px"></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Criança da Moda -->
+      <h1 class="p-5">Criança da Moda</h1>
+
+      <div class="container text-center">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+          <div class="col">
+            <a href=""><img src="img/roupas/infantil/p-f1.png" alt="Modelo1" class="zoom" width="230px"></a>
+          </div>
+          <div class="col">
+            <a href=""><img src="img/roupas/infantil/p-f2.png" alt="Modelo2" class="zoom" width="230px"></a>
+          </div>
+          <div class="col">
+            <a href=""><img src="img/roupas/infantil/p-f3.png" alt="Modelo3" class="zoom" width="230px"></a>
+          </div>
+          <div class="col">
+            <a href=""><img src="img/roupas/infantil/p-f4.png" alt="Modelo4" class="zoom" width="230px"></a>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Roda Pé -->
+      <footer>
+        <br><br><br><br><br>
+      </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
